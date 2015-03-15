@@ -1,5 +1,5 @@
 #!/bin/bash
-
+export DISPLAY=:0.0
 sudo docker run -it \
     --net host \ # may as well YOLO
     --cpuset 0 \ # control the cpu
